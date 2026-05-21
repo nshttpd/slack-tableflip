@@ -6,6 +6,8 @@ This repository contains a simple Go Slack slash command bot for table-flipping 
 - Go application (single `main.go`)
 - Uses only the standard library
 - CLI flags for configuration; produces a static binary via `go build`
+- The main branch for the repository is called `trunk`. Not `main` or `master`
+- The container image will be built with the `ko` command
 
 ## Essential Commands
 - Build binary: `go build -o slack-tableflip .`
